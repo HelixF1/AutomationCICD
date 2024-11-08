@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests" thread-count="5">
+
+    <groups>
+        <run>
+            <include name="ErrorHandling"/>
+        </run>
+    </groups>
+    <test verbose="2" preserve-order="true"
+          name="Submit Order Test">
+        <classes>
+            <class name="kerem.toren.Tests.SubmitOrderTest"/>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true"
+          name="Error Validations Test">
+        <classes>
+            <class name="kerem.toren.Tests.ErrorValidationsTest"/>
+        </classes>
+    </test>
+</suite>
