@@ -16,7 +16,7 @@ import java.util.List;
 public class StandAloneTest {
     public static void main(String[] args) {
 
-        //new comments are added
+        //new comments are added | 10 November 21:50
         String productName = "ZARA COAT 3";
 
         WebDriverManager.chromedriver().setup();
